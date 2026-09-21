@@ -376,6 +376,480 @@ Evidence objects : 0
 
 ---
 
+## 📸 Evidence Gallery
+
+> **SC-500 Lab 07 — AI Security Investigation & Response with Microsoft Defender XDR**
+>
+> All screenshots are stored in the `Evidence/` directory. The gallery below uses relative GitHub paths, so the images render directly from the repository.
+
+### Evidence navigation
+
+- **01–20:** Environment, Microsoft Foundry, model deployment and initial runtime validation
+- **21–40:** Diagnostic logging, telemetry, KQL investigation and Defender security posture
+- **41–60:** Local-auth remediation, Entra ID, Sentinel and XDR preparation
+- **61–80:** Detection engineering, incident generation and initial XDR investigation
+- **81–102:** Advanced hunting, rule validation, controlled response and final incident closure
+
+<details>
+<summary><strong>Evidence 01–20</strong> — click to expand</summary>
+
+**01 — Resource Group Created**
+
+![Evidence 01 — Resource Group Created](./Evidence/01-resource-group-created.png)
+
+**02 — Defender Plans Baseline**
+
+![Evidence 02 — Defender Plans Baseline](./Evidence/02-defender-plans-baseline.png)
+
+**03 — Ai Security Settings Baseline**
+
+![Evidence 03 — Ai Security Settings Baseline](./Evidence/03-ai-security-settings-baseline.png)
+
+**04 — Foundry Resource Review**
+
+![Evidence 04 — Foundry Resource Review](./Evidence/04-foundry-resource-review.png)
+
+**05 — Foundry Resource Created**
+
+![Evidence 05 — Foundry Resource Created](./Evidence/05-foundry-resource-created.png)
+
+**06 — Foundry Resource Overview**
+
+![Evidence 06 — Foundry Resource Overview](./Evidence/06-foundry-resource-overview.png)
+
+**07 — Foundry Project Overview**
+
+![Evidence 07 — Foundry Project Overview](./Evidence/07-foundry-project-overview.png)
+
+**08 — No Model Deployments Baseline**
+
+![Evidence 08 — No Model Deployments Baseline](./Evidence/08-no-model-deployments-baseline.png)
+
+**09 — Gpt56 Luna Model Selection**
+
+![Evidence 09 — Gpt56 Luna Model Selection](./Evidence/09-gpt56-luna-model-selection.png)
+
+**10 — Gpt56 Luna Deployment Playground**
+
+![Evidence 10 — Gpt56 Luna Deployment Playground](./Evidence/10-gpt56-luna-deployment-playground.png)
+
+**11 — Gpt56 Luna Controlled Runtime Test**
+
+![Evidence 11 — Gpt56 Luna Controlled Runtime Test](./Evidence/11-gpt56-luna-controlled-runtime-test.png)
+
+**12 — Gpt56 Luna Runtime Monitoring**
+
+![Evidence 12 — Gpt56 Luna Runtime Monitoring](./Evidence/12-gpt56-luna-runtime-monitoring.png)
+
+**13 — Data Ai Security Lab07 Baseline**
+
+![Evidence 13 — Data Ai Security Lab07 Baseline](./Evidence/13-data-ai-security-lab07-baseline.png)
+
+**14 — Ai Discovery Lab07**
+
+![Evidence 14 — Ai Discovery Lab07](./Evidence/14-ai-discovery-lab07.png)
+
+**15 — Foundry Ai Security Posture**
+
+![Evidence 15 — Foundry Ai Security Posture](./Evidence/15-foundry-ai-security-posture.png)
+
+**16 — Foundry Security Recommendations Filtered**
+
+![Evidence 16 — Foundry Security Recommendations Filtered](./Evidence/16-foundry-security-recommendations-filtered.png)
+
+**17 — Log Analytics Workspace Config**
+
+![Evidence 17 — Log Analytics Workspace Config](./Evidence/17-log-analytics-workspace-config.png)
+
+**18 — Log Analytics Workspace Created**
+
+![Evidence 18 — Log Analytics Workspace Created](./Evidence/18-log-analytics-workspace-created.png)
+
+**19 — Diagnostic Settings Config**
+
+![Evidence 19 — Diagnostic Settings Config](./Evidence/19-diagnostic-settings-config.png)
+
+**20 — Diagnostic Settings Created**
+
+![Evidence 20 — Diagnostic Settings Created](./Evidence/20-diagnostic-settings-created.png)
+
+</details>
+
+<details>
+<summary><strong>Evidence 21–40</strong> — click to expand</summary>
+
+**21 — Controlled Runtime Test Post Logging**
+
+![Evidence 21 — Controlled Runtime Test Post Logging](./Evidence/21-controlled-runtime-test-post-logging.png)
+
+**22 — Gpt56 Luna Runtime Monitoring Post Logging**
+
+![Evidence 22 — Gpt56 Luna Runtime Monitoring Post Logging](./Evidence/22-gpt56-luna-runtime-monitoring-post-logging.png)
+
+**23 — Foundry Requestresponse Logs Ingested**
+
+![Evidence 23 — Foundry Requestresponse Logs Ingested](./Evidence/23-foundry-requestresponse-logs-ingested.png)
+
+**24 — Foundry Requestresponse Investigation Telemetry**
+
+![Evidence 24 — Foundry Requestresponse Investigation Telemetry](./Evidence/24-foundry-requestresponse-investigation-telemetry.png)
+
+**25 — Ai Runtime Metrics Ingested**
+
+![Evidence 25 — Ai Runtime Metrics Ingested](./Evidence/25-ai-runtime-metrics-ingested.png)
+
+**26 — Model Request Metric Validation**
+
+![Evidence 26 — Model Request Metric Validation](./Evidence/26-model-request-metric-validation.png)
+
+**27 — Requestresponse Investigation Details**
+
+![Evidence 27 — Requestresponse Investigation Details](./Evidence/27-requestresponse-investigation-details.png)
+
+**28 — Requestresponse Investigation Summary**
+
+![Evidence 28 — Requestresponse Investigation Summary](./Evidence/28-requestresponse-investigation-summary.png)
+
+**29 — Ai Runtime Usage Metrics**
+
+![Evidence 29 — Ai Runtime Usage Metrics](./Evidence/29-ai-runtime-usage-metrics.png)
+
+**30 — Ai Operation Success Failure Summary**
+
+![Evidence 30 — Ai Operation Success Failure Summary](./Evidence/30-ai-operation-success-failure-summary.png)
+
+**31 — Ai Failed Operation Detection No Results**
+
+![Evidence 31 — Ai Failed Operation Detection No Results](./Evidence/31-ai-failed-operation-detection-no-results.png)
+
+**32 — Ai Investigation Timeline**
+
+![Evidence 32 — Ai Investigation Timeline](./Evidence/32-ai-investigation-timeline.png)
+
+**33 — Ai Runtime Investigation Query Saved**
+
+![Evidence 33 — Ai Runtime Investigation Query Saved](./Evidence/33-ai-runtime-investigation-query-saved.png)
+
+**34 — Model Request 7Day Validation**
+
+![Evidence 34 — Model Request 7Day Validation](./Evidence/34-model-request-7day-validation.png)
+
+**35 — Ai Model Request Spike No Trigger**
+
+![Evidence 35 — Ai Model Request Spike No Trigger](./Evidence/35-ai-model-request-spike-no-trigger.png)
+
+**36 — Ai Model Request Spike Query Saved**
+
+![Evidence 36 — Ai Model Request Spike Query Saved](./Evidence/36-ai-model-request-spike-query-saved.png)
+
+**37 — Data Ai Security Posture Updated**
+
+![Evidence 37 — Data Ai Security Posture Updated](./Evidence/37-data-ai-security-posture-updated.png)
+
+**38 — Foundry High Security Recommendation**
+
+![Evidence 38 — Foundry High Security Recommendation](./Evidence/38-foundry-high-security-recommendation.png)
+
+**39 — High Recommendation Disable Local Auth**
+
+![Evidence 39 — High Recommendation Disable Local Auth](./Evidence/39-high-recommendation-disable-local-auth.png)
+
+**40 — Foundry Key Access Before Remediation**
+
+![Evidence 40 — Foundry Key Access Before Remediation](./Evidence/40-foundry-key-access-before-remediation.png)
+
+</details>
+
+<details>
+<summary><strong>Evidence 41–60</strong> — click to expand</summary>
+
+**41 — Azure Powershell Device Login**
+
+![Evidence 41 — Azure Powershell Device Login](./Evidence/41-azure-powershell-device-login.png)
+
+**41 — Foundry Local Auth Remediated**
+
+![Evidence 41 — Foundry Local Auth Remediated](./Evidence/41-foundry-local-auth-remediated.png)
+
+**42 — Foundry Local Auth Before Remediation**
+
+![Evidence 42 — Foundry Local Auth Before Remediation](./Evidence/42-foundry-local-auth-before-remediation.png)
+
+**42 — Foundry Local Auth Verification**
+
+![Evidence 42 — Foundry Local Auth Verification](./Evidence/42-foundry-local-auth-verification.png)
+
+**43 — Defender Foundry Recommendations Current State**
+
+![Evidence 43 — Defender Foundry Recommendations Current State](./Evidence/43-defender-foundry-recommendations-current-state.png)
+
+**43 — Foundry Recommendation Pending Refresh**
+
+![Evidence 43 — Foundry Recommendation Pending Refresh](./Evidence/43-foundry-recommendation-pending-refresh.png)
+
+**44 — Foundry Recommendation Remediated**
+
+![Evidence 44 — Foundry Recommendation Remediated](./Evidence/44-foundry-recommendation-remediated.png)
+
+**45 — High Recommendation Details Post Remediation**
+
+![Evidence 45 — High Recommendation Details Post Remediation](./Evidence/45-high-recommendation-details-post-remediation.png)
+
+**46 — Defender Xdr Consumer Account Access Blocked**
+
+![Evidence 46 — Defender Xdr Consumer Account Access Blocked](./Evidence/46-defender-xdr-consumer-account-access-blocked.png)
+
+**47 — Entra Tenant Overview**
+
+![Evidence 47 — Entra Tenant Overview](./Evidence/47-entra-tenant-overview.png)
+
+**48 — Defender Xdr Portal Access**
+
+![Evidence 48 — Defender Xdr Portal Access](./Evidence/48-defender-xdr-portal-access.png)
+
+**49 — Microsoft Sentinel Workspace Enabled**
+
+![Evidence 49 — Microsoft Sentinel Workspace Enabled](./Evidence/49-microsoft-sentinel-workspace-enabled.png)
+
+**50 — Microsoft Sentinel Overview Baseline**
+
+![Evidence 50 — Microsoft Sentinel Overview Baseline](./Evidence/50-microsoft-sentinel-overview-baseline.png)
+
+**51 — Unified Siem Xdr Ready**
+
+![Evidence 51 — Unified Siem Xdr Ready](./Evidence/51-unified-siem-xdr-ready.png)
+
+**52 — Defender Xdr Advanced Hunting Ready**
+
+![Evidence 52 — Defender Xdr Advanced Hunting Ready](./Evidence/52-defender-xdr-advanced-hunting-ready.png)
+
+**53 — Defender Xdr Incidents Baseline**
+
+![Evidence 53 — Defender Xdr Incidents Baseline](./Evidence/53-defender-xdr-incidents-baseline.png)
+
+**54 — Gpt56 Luna Xdr Investigation Playground**
+
+![Evidence 54 — Gpt56 Luna Xdr Investigation Playground](./Evidence/54-gpt56-luna-xdr-investigation-playground.png)
+
+**55 — Controlled Xdr Investigation Runtime Test**
+
+![Evidence 55 — Controlled Xdr Investigation Runtime Test](./Evidence/55-controlled-xdr-investigation-runtime-test.png)
+
+**56 — Defender Xdr No Incident After Benign Test**
+
+![Evidence 56 — Defender Xdr No Incident After Benign Test](./Evidence/56-defender-xdr-no-incident-after-benign-test.png)
+
+**57 — Sentinel Analytics Baseline**
+
+![Evidence 57 — Sentinel Analytics Baseline](./Evidence/57-sentinel-analytics-baseline.png)
+
+**58 — Sentinel Scheduled Rule Wizard**
+
+![Evidence 58 — Sentinel Scheduled Rule Wizard](./Evidence/58-sentinel-scheduled-rule-wizard.png)
+
+**59 — Sentinel Mitre T1499 002 Selected**
+
+![Evidence 59 — Sentinel Mitre T1499 002 Selected](./Evidence/59-sentinel-mitre-t1499-002-selected.png)
+
+**60 — Xdr Incident Settings**
+
+![Evidence 60 — Xdr Incident Settings](./Evidence/60-xdr-incident-settings.png)
+
+</details>
+
+<details>
+<summary><strong>Evidence 61–80</strong> — click to expand</summary>
+
+**61 — Sentinel Automated Response Baseline**
+
+![Evidence 61 — Sentinel Automated Response Baseline](./Evidence/61-sentinel-automated-response-baseline.png)
+
+**62 — Sentinel Rule Schedule 5Min**
+
+![Evidence 62 — Sentinel Rule Schedule 5Min](./Evidence/62-sentinel-rule-schedule-5min.png)
+
+**63 — Sentinel Xdr Incident Creation Enabled**
+
+![Evidence 63 — Sentinel Xdr Incident Creation Enabled](./Evidence/63-sentinel-xdr-incident-creation-enabled.png)
+
+**64 — Sentinel Automated Response Empty**
+
+![Evidence 64 — Sentinel Automated Response Empty](./Evidence/64-sentinel-automated-response-empty.png)
+
+**65 — Xdr Analytics Rule Review Create**
+
+![Evidence 65 — Xdr Analytics Rule Review Create](./Evidence/65-xdr-analytics-rule-review-create.png)
+
+**66 — Xdr Analytics Rule Created**
+
+![Evidence 66 — Xdr Analytics Rule Created](./Evidence/66-xdr-analytics-rule-created.png)
+
+**67 — Xdr Detection Rule Enabled**
+
+![Evidence 67 — Xdr Detection Rule Enabled](./Evidence/67-xdr-detection-rule-enabled.png)
+
+**68 — Xdr Advanced Hunting Runtime Telemetry**
+
+![Evidence 68 — Xdr Advanced Hunting Runtime Telemetry](./Evidence/68-xdr-advanced-hunting-runtime-telemetry.png)
+
+**69 — Xdr Incidents No Incident Yet**
+
+![Evidence 69 — Xdr Incidents No Incident Yet](./Evidence/69-xdr-incidents-no-incident-yet.png)
+
+**70 — Xdr Controlled Runtime Validation**
+
+![Evidence 70 — Xdr Controlled Runtime Validation](./Evidence/70-xdr-controlled-runtime-validation.png)
+
+**71 — Xdr Incident Created**
+
+![Evidence 71 — Xdr Incident Created](./Evidence/71-xdr-incident-created.png)
+
+**72 — Xdr Incident Investigation Overview**
+
+![Evidence 72 — Xdr Incident Investigation Overview](./Evidence/72-xdr-incident-investigation-overview.png)
+
+**73 — Xdr Alert Details Overview**
+
+![Evidence 73 — Xdr Alert Details Overview](./Evidence/73-xdr-alert-details-overview.png)
+
+**74 — Xdr Alert Investigation Details**
+
+![Evidence 74 — Xdr Alert Investigation Details](./Evidence/74-xdr-alert-investigation-details.png)
+
+**75 — Xdr Alert Evidence No Related Evidence**
+
+![Evidence 75 — Xdr Alert Evidence No Related Evidence](./Evidence/75-xdr-alert-evidence-no-related-evidence.png)
+
+**76 — Xdr Alert Classification Options**
+
+![Evidence 76 — Xdr Alert Classification Options](./Evidence/76-xdr-alert-classification-options.png)
+
+**77 — Xdr Alert Security Testing Classification**
+
+![Evidence 77 — Xdr Alert Security Testing Classification](./Evidence/77-xdr-alert-security-testing-classification.png)
+
+**78 — Xdr Incident Investigation Overview**
+
+![Evidence 78 — Xdr Incident Investigation Overview](./Evidence/78-xdr-incident-investigation-overview.png)
+
+**79 — Xdr Incident Alert Details**
+
+![Evidence 79 — Xdr Incident Alert Details](./Evidence/79-xdr-incident-alert-details.png)
+
+**80 — Xdr Incident Activity Details**
+
+![Evidence 80 — Xdr Incident Activity Details](./Evidence/80-xdr-incident-activity-details.png)
+
+</details>
+
+<details>
+<summary><strong>Evidence 81–100</strong> — click to expand</summary>
+
+**81 — Xdr Investigation Status**
+
+![Evidence 81 — Xdr Investigation Status](./Evidence/81-xdr-investigation-status.png)
+
+**82 — Xdr Evidence Response Status**
+
+![Evidence 82 — Xdr Evidence Response Status](./Evidence/82-xdr-evidence-response-status.png)
+
+**83 — Xdr Incident Summary**
+
+![Evidence 83 — Xdr Incident Summary](./Evidence/83-xdr-incident-summary.png)
+
+**84 — Xdr Attack Story Overview**
+
+![Evidence 84 — Xdr Attack Story Overview](./Evidence/84-xdr-attack-story-overview.png)
+
+**85 — Xdr Alert Details**
+
+![Evidence 85 — Xdr Alert Details](./Evidence/85-xdr-alert-details.png)
+
+**86 — Xdr Alert Investigation Details**
+
+![Evidence 86 — Xdr Alert Investigation Details](./Evidence/86-xdr-alert-investigation-details.png)
+
+**87 — Xdr Alert Kql Query**
+
+![Evidence 87 — Xdr Alert Kql Query](./Evidence/87-xdr-alert-kql-query.png)
+
+**88 — Xdr Kql No Results Current Window**
+
+![Evidence 88 — Xdr Kql No Results Current Window](./Evidence/88-xdr-kql-no-results-current-window.png)
+
+**89 — Sentinel Analytics Rule Details**
+
+![Evidence 89 — Sentinel Analytics Rule Details](./Evidence/89-sentinel-analytics-rule-details.png)
+
+**90 — Sentinel Analytics Rule Logic**
+
+![Evidence 90 — Sentinel Analytics Rule Logic](./Evidence/90-sentinel-analytics-rule-logic.png)
+
+**91 — Sentinel Incident Settings**
+
+![Evidence 91 — Sentinel Incident Settings](./Evidence/91-sentinel-incident-settings.png)
+
+**92 — Sentinel Automated Response Status**
+
+![Evidence 92 — Sentinel Automated Response Status](./Evidence/92-sentinel-automated-response-status.png)
+
+**93 — Xdr Detection Rule Review**
+
+![Evidence 93 — Xdr Detection Rule Review](./Evidence/93-xdr-detection-rule-review.png)
+
+**94 — Xdr Detection Rule Updated**
+
+![Evidence 94 — Xdr Detection Rule Updated](./Evidence/94-xdr-detection-rule-updated.png)
+
+**95 — Xdr Incident Investigation Final View**
+
+![Evidence 95 — Xdr Incident Investigation Final View](./Evidence/95-xdr-incident-investigation-final-view.png)
+
+**96 — Xdr Incident Resolve Ready**
+
+![Evidence 96 — Xdr Incident Resolve Ready](./Evidence/96-xdr-incident-resolve-ready.png)
+
+**97 — Xdr Incident Resolved Final**
+
+![Evidence 97 — Xdr Incident Resolved Final](./Evidence/97-xdr-incident-resolved-final.png)
+
+**98 — Xdr Incident Summary Resolved**
+
+![Evidence 98 — Xdr Incident Summary Resolved](./Evidence/98-xdr-incident-summary-resolved.png)
+
+**99 — Xdr Resolved Alert List**
+
+![Evidence 99 — Xdr Resolved Alert List](./Evidence/99-xdr-resolved-alert-list.png)
+
+**100 — Xdr Automated Correlation Activity**
+
+![Evidence 100 — Xdr Automated Correlation Activity](./Evidence/100-xdr-automated-correlation-activity.png)
+
+</details>
+
+<details>
+<summary><strong>Evidence 101–102</strong> — click to expand</summary>
+
+**101 — Xdr Incident Attack Story Resolved**
+
+![Evidence 101 — Xdr Incident Attack Story Resolved](./Evidence/101-xdr-incident-attack-story-resolved.png)
+
+**102 — Xdr Incident Summary Resolved**
+
+![Evidence 102 — Xdr Incident Summary Resolved](./Evidence/102-xdr-incident-summary-resolved.png)
+
+</details>
+
+<details>
+<summary><strong>Additional Evidence Files</strong> — click to expand</summary>
+
+**Sentinel Mitre T1499 002 Selected**
+
+![Sentinel Mitre T1499 002 Selected](./Evidence/sentinel-mitre-t1499-002-selected.png)
+
+</details>
+
+
 # 15. Engineer-Level SOC Model
 
 ```text
@@ -482,6 +956,8 @@ SC-500-Lab-07-AI-Security-Investigation-Response-Microsoft-Defender-XDR/
 │   └── lab-07-lab-visuals.png
 │
 └── Evidence/
+    ├── 01–102 evidence screenshots
+    ├── additional evidence files
     └── README.md
 ```
 
