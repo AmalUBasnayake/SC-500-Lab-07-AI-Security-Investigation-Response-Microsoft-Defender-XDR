@@ -1,0 +1,12 @@
+// SC-500 Lab 07 — AI Runtime Investigation - XDR Detection
+// Controlled validation detection for Microsoft Foundry model request activity.
+AzureMetrics
+| where TimeGenerated > ago(5m)
+| where Resource =~ "foundry-sc500-ai-investigation"
+| where MetricName == "ModelRequests"
+| summarize
+    RequestCount = sum(Total),
+    PeakRequests = max(Maximum)
+    by bin(TimeGenerated, 5m)
+| where RequestCount >= 1
+| order by TimeGenerated desc
