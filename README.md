@@ -1,4 +1,6 @@
-# SC-500 Lab 07 — AI Security Investigation & Response with Microsoft Defender XDR
+# SC-500 Lab 07 #
+
+# AI Security Investigation & Response with Microsoft Defender XDR #
 
 <p align="center"><img src="Architecture/lab-07-banner.png" alt="SC-500 Lab 07 Banner"></p>
 
@@ -22,34 +24,22 @@ This lab builds an end-to-end AI security operations workflow. A controlled Micr
 
 <p align="center"><img src="Architecture/lab-07-architecture-diagram.png" alt="Lab 07 Architecture Diagram"></p>
 
-```text
-Microsoft Foundry / GPT-5.6-Luna
-            │
-            ▼
- Azure Monitor + Log Analytics
- AzureMetrics / AzureDiagnostics
-            │
-            ▼
- Microsoft Sentinel
- Scheduled KQL Analytics Rule
-            │
-            ▼
- Security Alert
-            │
-            ▼
- Microsoft Defender XDR
- Incident Correlation
-            │
-            ▼
- Investigation
- Alert / Activities / Attack Story
-            │
-            ▼
- Controlled Response
-            │
-            ▼
- Resolved + Documented
-```
+
+This lab implements an end-to-end AI-assisted security monitoring
+and response pipeline for a Microsoft Foundry / GPT-5.6-Luna workload.
+
+Azure Monitor and Log Analytics centralize workload telemetry,
+Microsoft Sentinel applies scheduled KQL analytics for threat detection,
+and Microsoft Defender XDR provides alert correlation and unified
+incident investigation.
+
+The workflow follows:
+
+Detect → Correlate → Investigate → Respond → Document
+
+This demonstrates how AI workload telemetry can be integrated into
+a modern Microsoft security operations architecture.
+
 
 ## 3. Environment
 
