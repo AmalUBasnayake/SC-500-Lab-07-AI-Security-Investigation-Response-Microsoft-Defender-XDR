@@ -954,7 +954,7 @@ SC-500-Lab-07-AI-Security-Investigation-Response-Microsoft-Defender-XDR/
 ## Author
 
 **Amal Udayanga Basnayake**  
-Cybersecurity Engineer | Azure Security | Microsoft Security | SIEM & Threat Detection
+Cybersecurity | Azure Security | Microsoft Security | SIEM & Threat Detection
 
 - GitHub: https://github.com/AmalUBasnayake
 - Portfolio: https://amalcyberlab.vercel.app/
